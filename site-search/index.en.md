@@ -7,7 +7,8 @@ license = "CC0"
 github_edit = true
 +++
 {{< status-card TITLE="Requirements" TYPE="warning">}}
-This guide requires **Node.js**. If you don’t have it installed, follow the [Node.js installation guide.](/node-install) before this guide.
+If you want to use site search *locally* or deploy your site via direct *file upload*, **Node.js** must be installed on your system. 
+If it's not installed, follow the [Node.js installation guide.](/node-install) before proceeding with this guide.
 {{< /status-card >}}
 Alpha is set up to support on-site search function by incorporating the static search library [Pagefind](https://pagefind.app)
 
@@ -21,7 +22,7 @@ pagefind_enabled = true # Default is false
 ```bash
 hugo --gc --minify && npx pagefind --site public
 ```
-- test 
+
 ## Deployment on Cloudflare Pages
 If deploying on Cloudflare Pages:
 1. Select your Cloudflare Pages project and open the **Settings** .
