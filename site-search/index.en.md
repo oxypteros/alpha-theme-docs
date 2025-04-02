@@ -3,6 +3,8 @@ title = 'Site Search'
 date = 2025-03-31T15:29:14+02:00
 author = "oxypteros"
 draft = false
+license = "CC0"
+github_edit = true
 +++
 {{< status-card TITLE="Requirements" TYPE="warning">}}
 This guide requires **Node.js**. If you don’t have it installed, follow the [Node.js installation guide.](/node-install) before this guide.
@@ -19,7 +21,7 @@ pagefind_enabled = true # Default is false
 ```bash
 hugo --gc --minify && npx pagefind --site public
 ```
-
+- test 
 ## Deployment on Cloudflare Pages
 If deploying on Cloudflare Pages:
 1. Select your Cloudflare Pages project and open the **Settings** .
